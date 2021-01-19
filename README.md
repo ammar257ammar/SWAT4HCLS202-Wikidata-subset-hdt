@@ -1,7 +1,7 @@
 ## Note
-This work has been accomplished during the [SWAT4HCLS](http://swat4ls.org) 2021 (Semantic Web Applications and Tools for Healthcare and Life Sciences)
+This work has been accomplished during the [SWAT4HCLS](http://swat4ls.org) Hackathon 2021 (Semantic Web Applications and Tools for Healthcare and Life Sciences)
 
-## ** Workflow to subset Wikidata using Wdumper and convert the output to HDT for sharing/querying **
+## **Workflow to subset Wikidata using Wdumper and convert the output to HDT for sharing/querying**
 
 [Shared Link](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=SWAT4HLC.drawio#R5VpZd5s4FP41Pqd9sA%2BLjeljszjLtDNpM%2BekfeqRQYASgRghYtyH%2Be1zBWIxXoInjknTPNjoSkLS%2Fe53F8UD8zTMLjiKg8%2FMxXRgaG42MM8GhqFPdRu%2BpGRZSMamWQh8Tlw1qBbckp9YCTUlTYmLk5WBgjEqSLwqdFgUYUesyBDnbLE6zGN0ddUY%2BXhNcOsgui69I64ICqk90Wr5JSZ%2BUK6sa6onROVgJUgC5LJFQ2SeD8xTzpgonsLsFFOpvFIvxbzZlt5qYxxHosuE%2B8wVcATXFn%2BcL%2B0r5EUCDS21N7EsD4xdOL9qMi4C5rMI0fNaesJZGrlYvlWDVj3mE2MxCHUQ3mMhlgpMlAoGokCEVPXChvnym5qfN77LxmhSNs%2ByZufZUrWKvcoNblWBEiUs5Q7ece7SlBD3sdgxblwBBRaOWYhhPzCPY4oEeVzdB1Km5lfjajTgQQGyBzjqvY%2BIpmqlgWFR2O7JHB58%2BXB3loYx5qUclqm6qrF8u8RlzoOcrfE0Gkj7ab0eoTBE0D9buHuscxVKUhkak%2B88y5e4TOV4FIKBnETzJK7QbFhebVfSSBYBEfg2RjmMC3AuqzakVIO5wNlua1hHT00YThUzlWuqmLqoiW6UdA4aJC%2FnHRxwY9oLHTMivjWeG2SEVs1F2Vg2idkvhY2OFDasPjlsPM3hwBXDe%2FSIXpzE%2By20jcU9s3Y6fm2s1c1%2Bg2hNuu%2FNvpdnoNmRgVsAPQ4BzQ5BlDwQFwnghWZo%2BliaO0Q7%2BHo3uk9YNPJ%2FvofGv7Lj4iTPNcOY4yQB%2BLbSsxuJ5ZIBx16%2BMeuflOX%2BQAiZ3H6U5zZmLgcVjXzGfIpHsDKIUmdgzvJD69eYLW6W4iqcafaDE0y%2FXk91f5pcBvOb6IP5%2BUsVdItPnMVgajARMtGIMuTWq1be6Lirl8pCtWr6cjDKoZjTdYdiWsd0KB9%2BU38y7upPjGc6FDX1hhHYYhVZxq3IolstgIuNqVktjKtt%2FH%2FYx097Kko8%2FCNxCI4cnPxI0nmCxSgS4KE2%2B52WGUEJGstHAAdRiinzOQphIGT2BHYPSUSr76bueIp5HslwWb8fKNRXob0K9ZNuob4N3OFCvf3rJeirdNaOR2e9a4au95qhl9vcwLskRlFJppglYhhzBsRLSOTL7IDjkD3KFJkAYXwkV3ICoI8DhEmkFiMHoIeGTBQ0IvNolKcPaUzzzNqDj6uvV8n7Bnuba%2FaebJstl2h3zLVfjoCTPgh4SFJ0DnK9cqJDLLq%2B%2FetPeeIYO9LYPSZL0Lvynkh7B0oEnWVC8kFZfhGwZMNxGHcLGuXjRCAJEarr4zidU5IEFW3aF0fFTjyWR2%2BHUcZXEuiBYWrw53nr2e0%2BiTcjI8ZhhzNdG00nE1DJDH%2BCADyaGJZU0BOZ85PTN6S%2Blaw4WyGuvMOuS4C%2FcwWWYMiyRepOPvs4whyJXJlzaUIXqfRXPGQ7tbupgOmgNZ%2BIIJ2rUgEADjm8ZVZWWLe5AYgc%2BN3q2%2BM9W%2FXYoQDbmS71fSFpbShE7A3e1n4xb9tzJTLo7d8DVkcv%2FdxK5HnwWPtWDHmS%2FnYLhrH92gqGsoLZAJEKX7W2S4coO4ZJrpiP%2BZVUnG0PZBV2%2Bi7H3Yoo66ymlMQJ7gIapadVwDVdhG3PkZmy4OwBN3osx8Zz70B%2BsQ2rtu4YxxtQHb8YqttLhgOjar5dVKfma0N1cixUjbeLqtm6s5n0DereMVLdqgWueIshUte048VIaNa%2FbymuSetfCZnn%2FwE%3D)
 
@@ -75,5 +75,6 @@ docker run -it \
 * HDT file size: 589MB 
 * Input file size (.nt): 6.64GB = 6800MB
 * (**Compression ratio:** 589 / 6800 = **8.66%**)
+* **The HDT file is provided in the Releases of this GitHub repo.**
 
 **Next step**, is to try to run an instance of Fuiski server (Docker) provided by Jose on top of this HDT file and try some queries.
