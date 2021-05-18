@@ -77,4 +77,4 @@ docker run -it \
 * (**Compression ratio:** 589 / 6800 = **8.66%**)
 * **The HDT file is provided in the Releases of this GitHub repo.**
 
-**Next step**, is to try to run an instance of Fuiski server (Docker) provided by Jose on top of this HDT file and try some queries.
+**Next step**, is to try to run an instance of [Fuseki](https://jena.apache.org/documentation/fuseki2/) server (Docker) provided by Jose on top of this HDT file and try some queries.
